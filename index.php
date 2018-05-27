@@ -1,11 +1,10 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>DoTerra</title>
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="/app/assets/images/icons/unisynFavicon.png">
     <link href="/app/modules/angular-material/1.1.5/angular-material.min.css" type="text/css" rel="stylesheet">
     <link href="/app/css/app.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -28,7 +27,7 @@
         <header
                 layout="row"
                 layout-align="space-around center">
-            <label class="md-display-1 cherrySwash">Kate Williams Health</label>
+            <label class="md-display-1">Kate Williams Health</label>
             <md-menu hide-gt-sm>
                 <md-button aria-label="Open navigation menu"
                         class="md-icon-button"
@@ -78,7 +77,7 @@
         <md-toolbar class="headerContainer bgHeaderImg"
                     layout="inherit"
                     layout-align="center center">
-            <label class="md-display-3 cherrySwash textWhite" style="font-weight: 700">Getting Started With doTerra</label>
+            <label class="md-display-3 textWhite" style="font-weight: 700">Getting Started With doTerra</label>
         </md-toolbar>
         <md-content-container id = "section_1"
                               class="md-padding md-margin"
@@ -87,7 +86,7 @@
                               layout="column"
                               layout-align="center stretch">
             <md-toolbar layout="column" layout-align="center center" class="hue-1">
-                <label class="md-display-1 cherrySwash">{{ section_1 }}</label>
+                <label class="md-display-1">{{ section_1 }}</label>
             </md-toolbar>
             <p>
                 doTERRA means “gift of the Earth” and that is truly what these oils are to me.
@@ -113,16 +112,16 @@
                               layout="column"
                               layout-align="center stretch">
             <md-toolbar layout="column" layout-align="center center">
-                <label class="md-display-1 cherrySwash">Here's Why Over 3 Million People Use doTerra</label>
+                <label class="md-display-1">Here's Why Over 3 Million People Use doTerra</label>
             </md-toolbar>
             <p>
-                <label class="md-headline cherrySwash"><strong>The Sourcing Model</strong></label>
+                <label class="md-headline"><strong>The Sourcing Model</strong></label>
                 <p>
                     doTERRA sources globally and not only that - they work WITH the farmers there to create a better economy.
                     This doesn't matter to everyone - but it did matter to me when I was comparing brands.
                 </p>
 
-                <label class="md-headline cherrySwash"><strong>Commitment to Purity Through CPTG Stamps</strong></label>
+                <label class="md-headline"><strong>Commitment to Purity Through CPTG Stamps</strong></label>
                 <p>
                     There is no governing body that enforces corporations like Walmart,
                     Best Buy or NOW brand to be honest about what they're putting in their bottles.
@@ -132,17 +131,17 @@
             </p>
             <label class="md-display-1">Why doTerra?</label>
             <p>Here are some of my fave reasons!</p>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OEnKOk4ad0U"
+            <div style="text-align: center;">
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/OEnKOk4ad0U"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/o_M4XsYaOxM"
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/o_M4XsYaOxM"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jbiu-Duwo2k"
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/Jbiu-Duwo2k"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OwLbPaIwrow"
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/OwLbPaIwrow"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
             </div>
@@ -154,7 +153,7 @@
                 The products arrive at your doorstep within a few days AND you can opt into ordering monthly
                 to access the greatest rewards program ever!
                 <br><br>
-                <strong>This is the way about 3.5 million people in doTERRA purchase.</strong>
+                <label class="md-headline"><strong>This is the way about 3.5 million people in doTerra purchase.</strong></label>
                 <br><br>
                 The majority of people begin by purchasing a starter kit,
                 but you could also open the account for $35us/$42cdn
@@ -173,7 +172,7 @@
                               layout="column"
                               layout-align="center stretch">
             <md-toolbar layout="column" layout-align="center center">
-                <label class="md-display-1 cherrySwash">Simple Steps to Get Started</label>
+                <label class="md-display-1">Simple Steps to Get Started</label>
             </md-toolbar>
             <p>
                 <ol>
@@ -221,7 +220,7 @@
                     </li>
                 </ol>
             </p>
-            <label class="md-headline cherrySwash"><strong>Receive a Customized Order Every Month</strong></label>
+            <label class="md-headline"><strong>Receive a Customized Order Every Month</strong></label>
             <p>
                 Your monthly order can be created, changed or cancelled at any time so don’t fret if you skip it now
                 and decide you want it later. To take full advantage of the Loyalty Rewards Promos
@@ -242,5 +241,20 @@
             <p>Email Me: katewilliamshealth@gmail.com</p>
         </footer>
     </div>
+    <!-- <div id = 'apiStuff'>
+
+    </div>
+    <script>
+        var api = "http://katewilliamshealth.com/wp-json/wp/v2/posts";
+        var username = 'kwadmin'
+        var password = 'MrB00per05'
+        var apiStuff = document.getElementById('apiStuff')
+        $.get(api, {headers: {Authorization: 'Basic ' + btoa(username + ':' + password)}},function(res){
+            console.log(res);
+            res.forEach(function(item){
+                apiStuff.innerHTML += item.title.rendered;
+            })
+        })
+    </script> -->
   </body>
 </html>
