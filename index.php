@@ -254,5 +254,20 @@
             <p>Email Me: katewilliamshealth@gmail.com</p>
         </footer>
     </div>
+    <!-- <div id = 'apiStuff'>
+
+    </div>
+    <script>
+        var api = "http://katewilliamshealth.com/wp-json/wp/v2/posts";
+        var username = 'kwadmin'
+        var password = 'MrB00per05'
+        var apiStuff = document.getElementById('apiStuff')
+        $.get(api, {headers: {Authorization: 'Basic ' + btoa(username + ':' + password)}},function(res){
+            console.log(res);
+            res.forEach(function(item){
+                apiStuff.innerHTML += item.title.rendered;
+            })
+        })
+    </script> -->
   </body>
 </html>
