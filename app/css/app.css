@@ -1,17 +1,3 @@
-.unisyn-hint {
-    margin-top: 6px;
-    font-size: 14px;
-    line-height: 14px;
-    transition: all 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);
-}md-input-container .unisyn-hint {
-    float: left;
-}md-input-container .md-errors-spacer {
-    float: none; /*not sure why this would need to float since float throws off vertical flow*/
-}@media (min-width: 960px) {
-    .unisyn-hint {
-        font-size: 12px;
-    }
-}
 .constrain-container {
 	width: 100%;
     max-width: 1200px;
