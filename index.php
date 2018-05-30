@@ -1,11 +1,10 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>DoTerra</title>
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="/app/assets/images/icons/unisynFavicon.png">
     <link href="/app/modules/angular-material/1.1.5/angular-material.min.css" type="text/css" rel="stylesheet">
     <link href="/app/css/app.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -28,7 +27,7 @@
         <header
                 layout="row"
                 layout-align="space-around center">
-            <label class="md-display-1 cherrySwash">Kate Williams Health</label>
+            <label class="md-display-1">Kate Williams Health</label>
             <md-menu hide-gt-sm>
                 <md-button aria-label="Open navigation menu"
                         class="md-icon-button"
@@ -78,7 +77,7 @@
         <md-toolbar class="headerContainer bgHeaderImg"
                     layout="inherit"
                     layout-align="center center">
-            <label class="md-display-3 cherrySwash textWhite" style="font-weight: 700">Getting Started With doTerra</label>
+            <label class="md-display-3 textWhite" style="font-weight: 700">Getting Started With doTerra</label>
         </md-toolbar>
         <md-content-container id = "section_1"
                               class="md-padding md-margin"
@@ -87,8 +86,19 @@
                               layout="column"
                               layout-align="center stretch">
             <md-toolbar layout="column" layout-align="center center" class="hue-1">
-                <label class="md-display-1 cherrySwash">{{ section_1 }}</label>
+                <label class="md-display-1">{{ section_1 }}</label>
             </md-toolbar>
+            <br/>
+            <label class="md-headline"><strong>My Testimony</strong></label>
+            <p>
+                I've personally experienced the amazing benefits of using doTerra essential oils for mental health.
+                For the last few years, I've used them to help me manage my severe anxiety and panic attacks.
+                Honestly, I can't imagine a day without my oils. I'm obsessed! ❤
+                <br/>
+                There are so many ways to use essential oils, it's difficult to understand their amazingness without experiencing them firsthand.
+                Contact me if you would like to try samples and/or join one of my online essential oils retreats which includes free samples and everything you need to know about how to use them!
+                <strong>Xoxo</strong>
+            </p>
             <p>
                 doTERRA means “gift of the Earth” and that is truly what these oils are to me.
                 doTERRA is a wellness company with the purest essential oils in the world as their core product
@@ -113,16 +123,16 @@
                               layout="column"
                               layout-align="center stretch">
             <md-toolbar layout="column" layout-align="center center">
-                <label class="md-display-1 cherrySwash">Here's Why Over 3 Million People Use doTerra</label>
+                <label class="md-display-1">Here's Why Over 3 Million People Use doTerra</label>
             </md-toolbar>
             <p>
-                <label class="md-headline cherrySwash"><strong>The Sourcing Model</strong></label>
+                <label class="md-headline"><strong>The Sourcing Model</strong></label>
                 <p>
                     doTERRA sources globally and not only that - they work WITH the farmers there to create a better economy.
                     This doesn't matter to everyone - but it did matter to me when I was comparing brands.
                 </p>
 
-                <label class="md-headline cherrySwash"><strong>Commitment to Purity Through CPTG Stamps</strong></label>
+                <label class="md-headline"><strong>Commitment to Purity Through CPTG Stamps</strong></label>
                 <p>
                     There is no governing body that enforces corporations like Walmart,
                     Best Buy or NOW brand to be honest about what they're putting in their bottles.
@@ -132,17 +142,17 @@
             </p>
             <label class="md-display-1">Why doTerra?</label>
             <p>Here are some of my fave reasons!</p>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OEnKOk4ad0U"
+            <div style="text-align: center;">
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/OEnKOk4ad0U"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/o_M4XsYaOxM"
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/o_M4XsYaOxM"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jbiu-Duwo2k"
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/Jbiu-Duwo2k"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OwLbPaIwrow"
+                <iframe width="45%" height="315" src="https://www.youtube.com/embed/OwLbPaIwrow"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
             </div>
@@ -154,7 +164,7 @@
                 The products arrive at your doorstep within a few days AND you can opt into ordering monthly
                 to access the greatest rewards program ever!
                 <br><br>
-                <strong>This is the way about 3.5 million people in doTERRA purchase.</strong>
+                <label class="md-headline"><strong>This is the way about 3.5 million people in doTerra purchase.</strong></label>
                 <br><br>
                 The majority of people begin by purchasing a starter kit,
                 but you could also open the account for $35us/$42cdn
@@ -173,7 +183,7 @@
                               layout="column"
                               layout-align="center stretch">
             <md-toolbar layout="column" layout-align="center center">
-                <label class="md-display-1 cherrySwash">Simple Steps to Get Started</label>
+                <label class="md-display-1">Simple Steps to Get Started</label>
             </md-toolbar>
             <p>
                 <ol>
@@ -181,11 +191,18 @@
                         <md-button class="md-raised md-primary" ng-click="toMyDoTerra()">Click Here</md-button>
                     </li>
                     <li>
-                        <p>Click the 'join doterra’ box at the bottom right of the screen</p>
+                        <p>
+                            Go to the "Join & Save" tab at the top of the page
+                        </p>
                     </li>
                     <li>
                         <p>
-                            Keep the ‘wholesale customer’ option selected to receive wholesale pricing
+                            Click the "Join DoTerra" box at the bottom right of the screen
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Keep the "WholeSale Customer" option selected to receive wholesale pricing
                             (a 25% discount), other bonuses + free product points!
                             There is no monthly order commitment. Or select “wellness advocate”
                             if you’re interested in wholesale pricing, monthly bonuses, free product points
@@ -221,19 +238,14 @@
                     </li>
                 </ol>
             </p>
-            <label class="md-headline cherrySwash"><strong>Receive a Customized Order Every Month</strong></label>
+            <label class="md-headline"><strong>Receive a Customized Order Every Month</strong></label>
             <p>
                 Your monthly order can be created, changed or cancelled at any time so don’t fret if you skip it now
                 and decide you want it later. To take full advantage of the Loyalty Rewards Promos
                 - you’ll want to set your monthly ship date to be before the 15th of the month.
                 For those months that your order is at least 125 pv - you’ll always receive a free product!
                 <br><br>
-                Still not sure about what the Loyalty Rewards Program is? <a href="#">Watch this video</a> + you and I will chat about it during our next call!
-                <br><br>
-                ❤ A few items that I always have on my monthly order: The LifeLong Vitality Pack,
-                On Guard toothpaste (my teeth have never been whiter!), On Guard foaming hand soap,
-                On Guard cleaning concentrate (the best all purpose cleaner, ever!), On Guard laundry detergent,
-                Verage facial cleanser, Salon Essentials shampoo & conditioner, and Salon Essentials root to tip serum ❤
+                Still not sure about what the Loyalty Rewards Program is? <a href="https://youtu.be/SKJs8sL5faU">Watch this video</a>
             </p>
             <img src="/app/assets/images/LRP_chart.png" alt="Loyalty Rewards Eligability Chart" width="560" height="auto" class="margin-center">
         </md-content-container>

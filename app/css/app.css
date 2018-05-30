@@ -92,4 +92,6 @@
 .textWhite {
     color: #fff;
 }
-/* aboutContainer styles */
+label {
+    font-family: "Cherry Swash", "cursive";
+}
