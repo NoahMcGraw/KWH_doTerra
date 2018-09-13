@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>DoTerra</title>
+    <title>Getting Started With doTerra</title>
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
     <link href="/app/modules/angular-material/1.1.5/angular-material.min.css" type="text/css" rel="stylesheet">

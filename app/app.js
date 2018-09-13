@@ -1,7 +1,7 @@
 var app = angular.module('app', ['ngMaterial', 'ngMessages', 'ngAnimate']);
 app.config(function($mdThemingProvider) {
   var primaryColorMap =
-    $mdThemingProvider.extendPalette('red', {
+    $mdThemingProvider.extendPalette('deep-orange', {
     'contrastDefaultColor': 'light'
     });
   var accentColorMap =
@@ -12,8 +12,8 @@ app.config(function($mdThemingProvider) {
   $mdThemingProvider.definePalette('accentColor', accentColorMap);
   $mdThemingProvider.theme('default')
     .primaryPalette('primaryColor', {
-      'default': 'A100',
-      'hue-1': 'A200',
+      'default': '200',
+      'hue-1': 'A100',
       'hue-2': '700',
     })
     .accentPalette('accentColor', {
